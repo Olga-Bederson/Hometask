@@ -555,7 +555,9 @@
   padding-right: 14.375%;
   box-sizing: border-box;
 }
-
+menu {
+width: 100%;
+}
 
 
 

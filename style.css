@@ -25,7 +25,7 @@
   }
  .block-article {
    width: 1600px;
-   height: 764px;
+   height: 900px;
    left: 0%;
    right: 0%;
    top: 1.96%;
@@ -100,7 +100,7 @@
   flex-wrap: wrap;
   width: 100%;
   max-width: 1140px;
-  margin: 700px auto 0 auto;
+  margin: 850px auto 0 auto;
 }
 .categories-item {
   display: flex;
@@ -326,10 +326,6 @@
   color: #F26376;
 }
 /*  end products  */
-
-
-
-
 
 /*  features  */
 .features {

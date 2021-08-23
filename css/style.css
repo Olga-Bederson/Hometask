@@ -2,12 +2,10 @@
     display: flex;
     position: absolute;
     border: #222222;
-    width: 1600px;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 79px;
     height: 75px;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 98.04%;
     background: #222222;
     justify-content: space-between;
     align-items: center; 
@@ -24,7 +22,9 @@
     justify-content: space-between
   }
  .block-article {
-   width: 1600px;
+   width: 100%;
+   max-width: 1600px;
+   min-height: 79px;
    height: 900px;
    left: 0%;
    right: 0%;
@@ -557,16 +557,14 @@
 /*  ========== block-arrivals sections ============ */
 
 .block-arrivals-title {
-    position: relative;
-    display: flex;
-    width: 1600px;
-    height: 148px;
-    margin: 75px 0 0 0;
-    left: 0%;
-    right: 0%;
-    top: 2.33%;
-    bottom: 93.06%;
-    background: #F8F3F4;
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 1600px;
+  min-height: 341px;
+  height: 148px;
+  margin: 75px 0 0 0;
+  background: #F8F3F4;
  }
  .new_arrivals {
     justify-content: space-between;
@@ -638,6 +636,8 @@
   flex-wrap: wrap;
   /*align-items: center;*/
   width: 100%;
+  max-width: 1600px;
+  min-height: 79px;
  }
  .w_collection_sign_left {
    list-style-type: none;
@@ -918,6 +918,151 @@
    color: #F26376;
  }
 
+/*===================Cart====================*/
+/*==============shoping_cart=================*/
 
+.wrp_shoping_cart {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.block-shoping_cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 148px;
+  margin: 5% auto 0 0%;
+  background: #F8F3F4;
+}
+.block-shoping_cart_txt {
+  width: 100%;
+  margin: auto auto auto 14.5%/*59px 1176px 60px 230px*/;
+  color: #F16D7F;
+  font-weight: normal;
+  font-size: 24px;
+}
+/*=================shoping cart txt and photo==================*/
+.shoping_cart_section {
+  width: 652px;
+  height: 306px;
+  margin: auto;
+}
+.shoping_cart_photo {
+  display: block;
+  float: left;
+  width: 262px;
+  height: 306px;
+  border: 1px solid black;
+}
+.shoping_cart_txt_wrp {
+  display: block;
+  float: right;
+  border: 1px solid black;
+  width: 390px;
+  height: 306px;
+}
+.shoping_cart_title {
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0% 0% 20% 5%;
+}
+.element_x {
+  float: right;
+}
+.shoping_cart_txt {
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 5% auto auto 5%;
+}
+
+/*=============adress-block================*/
+
+.adress-block_wrp {
+  margin: 5% auto;
+}
+.adress-block_button {
+  border: 1px solid #A4A4A4;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  background: white;
+  margin: 10% auto;
+  width: 100,39px;
+  height: 34px;
+}
+/*=====================total block=====================*/
+
+.total_block_wrp {
+  width: 360px;
+  height: 214px;
+  background: #F5F3F3;
+  margin: 0 auto auto 0;
+}
+.total_block_txt_sub {
+  display: flex;
+  flex-flow: column wrap;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #4A4A4A;
+  text-align: right;
+  margin: 39px 20px 3px 0;
+}
+.total_block_txt_grand {
+  display: flex;
+  flex-flow: column wrap;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  text-align: right;
+  margin: 0 20px;
+}
+.total_block_line {
+  margin: 21px 42px;
+}
+.total_block_button {
+  width: 273px;
+  height: 50px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background: #F16D7F;
+  margin: 5% 12%;
+}
+/*===================t_b_bottom==================*/
+
+.t_b_bottom {
+  width: 652px;
+  height: 50px;
+  margin: 3% auto auto 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.t_b_bottom_btn_clear {
+  width: 235px;
+  height: 50px;
+  background: #FFFFFF;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+.t_b_bottom_btn_continue {
+  width: 225px;
+  height: 50px;
+  background: #FFFFFF;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
 
 

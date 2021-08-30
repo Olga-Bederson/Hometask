@@ -1,10 +1,7 @@
 .block-content{
     display: flex;
-    position: absolute;
     border: #222222;
     width: 100%;
-    max-width: 1600px;
-    min-height: 79px;
     height: 75px;
     background: #222222;
     justify-content: space-between;
@@ -12,41 +9,30 @@
     }
   .navigation {
     display: flex;
-    list-style-type: none;
   }
   .navigation-new {
     display: flex;
-    list-style-type: none;
   }
   .photo-goods{
     justify-content: space-between
   }
  .block-article {
+   display: flex;
    width: 100%;
-   max-width: 1600px;
-   min-height: 79px;
    height: 900px;
-   left: 0%;
-   right: 0%;
-   top: 1.96%;
-   bottom: 78.08%;
    background: #F1E4E6;
  }
  .man-photo {
-   position: absolute;
    width: 800.58px;
    height: 764px;
-   left: 0px;
-   top: 75px;
+   
  }
  .txt {
-   display: block;
-   padding: 0 0 0 20px;
-   position: relative;
-   top: 75px;
-   width: 377px;
-   height: 93px;
-   left: 892px;
+  display: flex;
+  margin: 30% 0 0 0;
+  position: relative;
+  width: 377px;
+  height: 93px;
  }
  .title {
    color: orange;
@@ -57,9 +43,6 @@
    width: 5px;
    height: 50px;
    background-color: orange;
-   position: absolute;
-   top: 0px;
-   left: -0px;
  }
  
  .photo-goods {
@@ -78,12 +61,12 @@
   background: rgba(255, 255, 255, 0.5);
   text-align: center;
   color: #fff;
-  background-color: black; /* сделать none в конечной редакции на картинке */
+  background-color: black; 
   text-transform: uppercase; 
 }
 
 .social-link:hover {
-  text-decoration: underline; /* Подчеркиваем */
+  text-decoration: underline; 
 }
 
 .social-link:active {
@@ -100,7 +83,7 @@
   flex-wrap: wrap;
   width: 100%;
   max-width: 1140px;
-  margin: 850px auto 0 auto;
+  margin: 5% auto 0% auto;
 }
 .categories-item {
   display: flex;
@@ -560,10 +543,8 @@
   position: relative;
   display: flex;
   width: 100%;
-  max-width: 1600px;
-  min-height: 341px;
   height: 148px;
-  margin: 75px 0 0 0;
+  margin: 0 0 0 0;
   background: #F8F3F4;
  }
  .new_arrivals {
@@ -590,21 +571,17 @@
    position: relative;
    display: flex;
    align-items: center;
-   margin: auto;
-   /*width: 1600px;*/
-   height: 138px; 
+   margin: 2% 10% 0%; 
  }
   
  .filter {
-   margin: 0 0 0 50px;
-   list-style-type: none;
+   margin: 0 0 0 0;
    justify-content: space-between;
    display: inline-block;
    
  }
  .trending_now {
-   margin: 0 0 0 350px;
-   list-style-type: none;
+   margin: 0 0 0 30%;
    justify-content: space-between;
    display: inline-block;
  }
@@ -621,11 +598,6 @@
    display: inline-block;
  }
  
- /* ============products=============*/
- 
- menu {
-   width: 100%;
- }
 
 /* ============ page products=============*/
 /*=============w_collection===============*/
@@ -640,37 +612,31 @@
   min-height: 79px;
  }
  .w_collection_sign_left {
-   list-style-type: none;
    justify-content: space-around;
-   display: inline-block;
+   display: flex;
    align-items: center;
-   margin: auto/* 97.06% auto 0*/;
+   margin: auto 0;
  }
  .w_collection_photo {
-   list-style-type: none;
    justify-content: space-around;
-   display: inline-block;
+   display: flex;
    align-items: center;
-   margin: auto/* 30.56% auto 32.12%*/;
+   margin: auto;
  }
  .w_collection_sign_right {
-   list-style-type: none;
    justify-content: space-around;
-   display: inline-block;
+   display: flex;
    align-items: center;
-   margin: auto 0 auto 30%;
+   margin: auto 0 auto 0;
  }
  
  /*============== w-c-article================*/
  
- 
  .w_c_article{
    width: 100%;
-  
  }
  .w_c_title {
    text-align: center;
-   margin: auto auto auto 35%;
    align-items: center;
    font-size: 14px;
    line-height: 17px;
@@ -682,19 +648,21 @@
  }
  .w_c_cheap {
    text-align: center;
-   margin: auto auto 10% 35%;
+   margin: 2% auto 7% 0%;
  }
  .w_c_paragraph {
    text-align: center;
-   margin: auto auto 10% 35%;
  }
  .w_c_price {
-   text-align: center;
-   margin: auto auto 5% 35%;
-   color: #F16D7F;
+  text-align: center;
+  margin: 5% 35%;
+  color: #F16D7F;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
  }
  .w_c_price_line {
-   margin: auto auto auto 30%;
+   margin: auto auto auto 26%;
    align-items: center;
  }
  /*===============navigation_choose block===============*/
@@ -702,33 +670,32 @@
    display: flex;
    position: relative;
    flex-wrap: wrap;
-   /*align-items: center;*/
    width: 100%;
  }
  .n_c_color {
    list-style-type: none;
    justify-content: center;
-   display: inline-block;
+   display: flex;
    align-items: center;
-   margin: auto auto auto 35%;
+   margin: 3% 3% 3% 25%;
  }
  .n_c_size {
    list-style-type: none;
    justify-content: center;
-   display: inline-block;
+   display: flex;
    align-items: center;
-   margin: auto;
+   margin: 3%;
  }
  .n_c_quanity {
    list-style-type: none;
    justify-content: center;
-   display: inline-block;
+   display: flex;
    align-items: center;
-   margin: auto;
+   margin: 3%;
  }
  .n_c_btn {
    display: block;
-   margin: 10% auto 10% 60%;
+   margin: 5% 42% 6%;
    width: 211px;
    padding: 14.5px;
    background-color: #fff;

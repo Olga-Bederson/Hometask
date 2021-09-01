@@ -10,6 +10,57 @@
   .navigation {
     display: flex;
   }
+  .search-icon-form {
+    width: 30px;
+    height: 30px;
+    margin: -5% 0 0 11%;
+    position: relative;
+  } 
+  .search-icon-form__label {
+    display: block;
+    width: 100%;
+    height: 100%;
+  /*   border: 1px solid green; */
+    background-image: url('https://findicons.com/files/icons/2813/flat_jewels/512/search.png');
+  /*   background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent; */
+  }
+  .search-icon-form__label:hover .search-icon-form__svg {
+    fill: gold;
+  }
+  
+  .search-icon-form__label:active .search-icon-form__svg {
+    fill: green;
+  }
+  .search-icon-form__svg {
+    width: 100%;
+    height: 100%;
+    fill: #fff;
+  }
+  .search-icon-form__input {
+    width: 0;
+    min-height: 0;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial;
+    text-transform: capitalize;
+  }
+  .search-icon-form__input:focus {
+  /*   display: block; */
+    width: 150px;
+    min-height: 20px;
+    transition: width 1s ease;
+  }
+  .search-icon-form__input:focus ~ .search-icon-form__label>.search-icon-form__svg {
+    fill: aqua;
+  }
   .navigation-new {
     display: flex;
   }
@@ -612,22 +663,22 @@
   min-height: 79px;
  }
  .w_collection_sign_left {
-   justify-content: space-around;
+   justify-content: center;
    display: flex;
    align-items: center;
-   margin: auto 0;
+   margin: 0 0 0 -1%;
  }
  .w_collection_photo {
-   justify-content: space-around;
+   justify-content: center;
    display: flex;
    align-items: center;
    margin: auto;
  }
  .w_collection_sign_right {
-   justify-content: space-around;
+   justify-content: center;
    display: flex;
    align-items: center;
-   margin: auto 0 auto 0;
+   margin: 0% 5% 0% 0%;
  }
  
  /*============== w-c-article================*/
@@ -643,7 +694,7 @@
    color: #F16D7F;
  }
  .w_c_line {
-   margin: auto auto auto 65%;
+   margin: auto auto auto 47%;
    align-items: center;
  }
  .w_c_cheap {
@@ -970,7 +1021,7 @@
   width: 360px;
   height: 214px;
   background: #F5F3F3;
-  margin: 0 auto auto 0;
+  margin: 0 2% auto 0;
 }
 .total_block_txt_sub {
   display: flex;
@@ -1011,7 +1062,7 @@
 .t_b_bottom {
   width: 652px;
   height: 50px;
-  margin: 3% auto auto 10%;
+  margin: 3% auto auto 8%;
   display: flex;
   justify-content: space-between;
 }
@@ -1049,7 +1100,7 @@
   flex-wrap: wrap;
   width: 100%;
   height: 148px;
-  margin: 5% auto 0 0%;
+  margin: 0% auto 0 0%;
   background: #F8F3F4; 
 }
 

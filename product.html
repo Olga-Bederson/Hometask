@@ -11,16 +11,24 @@
 
 <body>
     <header class="block-content">
-
-        <ul class="navigation">
-            <li><img src="img/logo_navigation.png" alt="logo"></li>
-            <li><img src="img/search__navigation.png" alt="search"></li>
-        </ul>
-        <ul class="navigation-new">
-            <li><img src="img/line_navigation.png" alt="line"></li>
-            <li><img src="img/login_navigation.png" alt="login"></li>
-            <li><img src="img/bag__navigation.png" alt="bag"></li>
-        </ul>
+        <nav class="navigation">
+            <img src="img/logo_navigation.png" alt="logo">
+            <form action="search" class="search-icon-form">
+                <input class="search-icon-form__input" id="search" type="search">
+                <label for="search" class="search-icon-form__label">
+                    <svg class="search-icon-form__svg" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                        <path
+                            d="M23.762,22.681 L17.569,16.586 C19.190,14.825 20.187,12.494 20.187,9.929 C20.186,4.443 15.668,-0.002 10.093,-0.002 C4.519,-0.002 0.001,4.443 0.001,9.929 C0.001,15.416 4.519,19.862 10.093,19.862 C12.502,19.862 14.711,19.028 16.446,17.644 L22.663,23.763 C22.966,24.062 23.458,24.062 23.761,23.763 C24.065,23.464 24.065,22.979 23.762,22.681 ZM10.093,18.334 C5.377,18.334 1.553,14.572 1.553,9.929 C1.553,5.288 5.377,1.525 10.093,1.525 C14.810,1.525 18.633,5.288 18.633,9.929 C18.633,14.572 14.810,18.334 10.093,18.334 Z" />
+                    </svg>
+                </label>
+            </form>
+        </nav>
+        <nav class="navigation-new">
+            <img src="img/line_navigation.png" alt="line">
+            <img src="img/login_navigation.png" alt="login">
+            <img src="img/bag__navigation.png" alt="bag">
+        </nav>
     </header>
     <header>
         <section class="block-arrivals-title">
@@ -30,23 +38,25 @@
         </section>
     </header>
     <header>
-        <ul class="w_collection">
-            <li class="w_collection_sign_left"><a href="#"><svg width="13" height="23" viewBox="0 0 13 23" fill="none"
+        <section class="w_collection">
+            <a class="w_collection_sign_left" href="#">
+                <svg width="13" height="23" viewBox="0 0 13 23" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
-                        <path
+                    <path
                             d="M12.6998 3.7499L4.9498 11.4999L12.6998 19.2499L11.1498 22.3499L0.299805 11.4999L11.1498 0.649902L12.6998 3.7499Z"
                             fill="black" />
-                    </svg></a>
-            </li>
-            <li class="w_collection_photo"><img src="img/women_collection_photo.png" alt="women collection"></li>
-            <li class="w_collection_sign_right"><a href="#"><svg width="13" height="23" viewBox="0 0 13 23" fill="none"
+                </svg>
+                </a>
+                <img class="w_collection_photo" src="img/women_collection_photo.png" alt="women collection">
+                <a class="w_collection_sign_right" href="#">
+                    <svg width="13" height="23" viewBox="0 0 13 23" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
-                        <path
+                    <path
                             d="M0.299805 19.2499L8.0498 11.4999L0.299805 3.7499L1.8498 0.649902L12.6998 11.4999L1.8498 22.3499L0.299805 19.2499Z"
                             fill="#F16D7F" />
-                    </svg></a>
-            </li>
-        </ul>
+                </svg>
+                </a>
+                </section>
     </header>
 
     <main>
